@@ -2,6 +2,9 @@ Here's the problem addressed:
 
 Complete the two functions in the file. You may assume that the functions will be called with the correct kinds of data -- error checking is not required. Do not add any code outside the functions.
 
+
 The function named check_phone_number takes a string parameter. The function will return true if the string consists of exactly a phone number in either the form xxx-xxxx or (xxx) xxx-xxxx. Yes, there is a space between the ) and the following number. This function must make use of regular expressions. You will not receive credit for this function if it does not use check_phone_number. Make your regular expression as elegant as possible -- avoiding unnecessary duplication.
+
 A function save_phone_numbers that takes two file names as parameters, an input file and an output file. It will read the input file and write to the output file only those lines from the input file that are phone numbers. A line that contains a phone number and anything else (even an extra space) must not end up in the output file. Make sure you use your check_phone_number function in the save_phone_numbers function. You will not receive credit for this function if it does not use check_phone_number.
+
 You have been provided with a sample input file (data.txt) and a file with the correct output to compare to (phones.txt).
